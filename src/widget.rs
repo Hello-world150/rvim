@@ -5,5 +5,5 @@ pub fn create_widgets() -> [Paragraph<'static>; 2] {
 
     let status_bar = Paragraph::new("Rvim status");
 
-    return [text, status_bar];
+    [text, status_bar]
 }
